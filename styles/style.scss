@@ -110,23 +110,23 @@ body {
   align-items: center;
   height: 51px;
   margin-bottom: 22px;
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 26px;
-  }
-  a:not(:last-child) {
-    margin-right: 40px;
-  }
 }
-
+.topNav a:not(:last-child) {
+  margin-right: 40px;
+}
+.topNav a {
+  border-bottom: transparent 3px solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+}
 .topNav a:hover {
   border-bottom: #ef5b70 3px solid;
   color: #ef5b70;
- }
+}
 
 .promo {
   height: 614px;
@@ -667,7 +667,6 @@ body {
 .arrivals {
   height: 148px;
   background-color: #f8f3f4;
-  margin-bottom: 90px;
   .container {
     height: inherit;
     display: flex;
@@ -702,7 +701,9 @@ body {
 .arrivalsNav a:last-child {
   color: #f16d7f;
 }
-
+.order {
+  margin-top: 90px;
+}
 .orderHead {
   display: flex;
   justify-content: space-between;
@@ -772,10 +773,9 @@ body {
 }
 
 .orderProductAction i {
-  width: 15px;
-  height: 15px;
+  font-size: 15px;
   color: #c0c0c0;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .orderProductBox {
@@ -842,7 +842,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .shippingInput {
@@ -1034,4 +1033,50 @@ body {
   font-size: 16px;
   font-weight: 700;
   border: none;
+}
+
+.womenProductWrap {
+  border-top: 1px solid #eaeaea;
+  background-color: #f7f7f7;
+}
+
+.womenProduct {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  width: 47px;
+  height: 47px;
+  color: #fff;
+  background: #d8d8d8;
+  cursor: pointer;
+  left: 0;
+}
+.arrowRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  width: 47px;
+  height: 47px;
+  color: #fff;
+  background: #d8d8d8;
+  cursor: pointer;
+  right: 0;
+}
+.container {
+  .womenCollection {
+    margin-top: -70px;
+    background-color: #ffffff;
+    height: 200px;
+  }
 }

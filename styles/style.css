@@ -29,9 +29,9 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 
 .topNav { display: flex; justify-content: center; align-items: center; height: 51px; margin-bottom: 22px; }
 
-.topNav a { text-decoration: none; text-transform: uppercase; color: #222222; font-size: 14px; font-weight: 700; line-height: 26px; }
-
 .topNav a:not(:last-child) { margin-right: 40px; }
+
+.topNav a { border-bottom: transparent 3px solid; text-decoration: none; text-transform: uppercase; color: #222222; font-size: 14px; font-weight: 700; line-height: 26px; }
 
 .topNav a:hover { border-bottom: #ef5b70 3px solid; color: #ef5b70; }
 
@@ -207,7 +207,7 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 
 .footerIconImg:hover i { color: #f7f7f8; }
 
-.arrivals { height: 148px; background-color: #f8f3f4; margin-bottom: 90px; }
+.arrivals { height: 148px; background-color: #f8f3f4; }
 
 .arrivals .container { height: inherit; display: flex; align-items: center; justify-content: space-between; }
 
@@ -220,6 +220,8 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 .arrivalsNav a:hover { margin: 0; color: #f16d7f; font-weight: 700; }
 
 .arrivalsNav a:last-child { color: #f16d7f; }
+
+.order { margin-top: 90px; }
 
 .orderHead { display: flex; justify-content: space-between; text-transform: uppercase; border-bottom: 1px solid #eaeaea; padding-bottom: 20px; color: #222222; font-size: 13px; font-weight: 700; letter-spacing: -0.2px; }
 
@@ -245,7 +247,7 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 
 .orderProductAction { width: 50px; }
 
-.orderProductAction i { width: 15px; height: 15px; color: #c0c0c0; font-weight: 400; }
+.orderProductAction i { font-size: 15px; color: #c0c0c0; font-weight: 700; }
 
 .orderProductBox { width: 300px; margin-top: 22px; display: flex; }
 
@@ -265,7 +267,7 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 
 .buttonShoping > button { border: 1px solid #eaeaea; background-color: #ffffff; padding: 20px 38px; color: #4a4a4a; font-size: 14px; font-weight: 700; outline: none; text-transform: uppercase; }
 
-.shipping { margin-bottom: 80px; display: flex; align-items: center; justify-content: space-between; align-items: flex-start; }
+.shipping { margin-bottom: 80px; display: flex; align-items: center; justify-content: space-between; }
 
 .shippingInput { display: flex; flex-direction: column; justify-content: center; }
 
@@ -320,4 +322,14 @@ body { padding: 0; margin: 0; font-family: "lato", sans-serif; font-weight: 400;
 .grandTotalGrand span:last-child { color: #f16d7f; margin-left: 20px; }
 
 .grandTotal button { width: 100%; background-color: #f16d7f; padding: 20px 38px; text-align: center; color: #fff; text-transform: uppercase; font-size: 16px; font-weight: 700; border: none; }
+
+.womenProductWrap { border-top: 1px solid #eaeaea; background-color: #f7f7f7; }
+
+.womenProduct { position: relative; display: flex; align-items: center; justify-content: center; }
+
+.arrowLeft { display: flex; justify-content: center; align-items: center; position: absolute; top: calc(50% - 47px / 2); width: 47px; height: 47px; color: #fff; background: #d8d8d8; cursor: pointer; left: 0; }
+
+.arrowRight { display: flex; justify-content: center; align-items: center; position: absolute; top: calc(50% - 47px / 2); width: 47px; height: 47px; color: #fff; background: #d8d8d8; cursor: pointer; right: 0; }
+
+.container .womenCollection { margin-top: -70px; background-color: #ffffff; height: 200px; }
 /*# sourceMappingURL=style.css.map */
