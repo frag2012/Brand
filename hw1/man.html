@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous">
+   <link rel="stylesheet" href="styles/style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <a href="index.html" class="logo">BRAN<span>D</span></a>
+         <form class="headerSearchForm">
+            <div class="headerBrowse">
+               Browse <i class="fas fa-caret-down"></i>
+            </div>
+            <input type="text" placeholder="Search for Item...">
+            <button><i class="fas fa-search"></i></button>
+         </form>
+         <img class="headerCart" src="img/cart.png" alt="cart">
+         <button class="accountBtn">
+            My Account
+            <i class="fas fa-caret-down"></i>
+         </button>
+      </div>
+   </header>
+   <nav class="topNav">
+      <a href="index.html">Home</a>
+      <a href="man.html">Man</a>
+      <a href="women.html">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Accoseriese</a>
+      <a href="#">Featured</a>
+      <a href="#">Hot Deals</a>
+   </nav>
+   <div class="arrivals">
+      <div class="container">
+         <div class="arrivalsText">New Arrivals</div>
+         <div class="arrivalsNav">
+            <a href="index.html">Home /</a>
+            <a href="man.html">Men /</a>
+            <a href="#">New Arrivals</a>
+         </div>
+      </div>
+   </div>
+   <div class="order container">
+      <div class="orderHead">
+         <div class="orderHeadProduct">Product Details</div>
+         <div class="orderHeadPrice">unite Price</div>
+         <div class="orderHeadQty">Quantity</div>
+         <div class="orderHeadShip">shipping</div>
+         <div class="orderHeadTotal">Subtotal</div>
+         <div class="orderHeadAction">ACTION</div>
+      </div>
+      <div class="orderProduct">
+         <div class="orderProductBox">
+            <div class="orderProductBoxImg"><img src="img/Product1.jpg" alt="product"></div>
+            <div class="orderProductBoxInfo">
+               <div class="orderProductBoxInfoName">Mango People T-shirt</div>
+               <div class="orderProductBoxInfoColor"><span class="infoColor">Color:</span> Red
+               </div>
+               <div class="orderProductBoxInfoSize"><span class="infoSize">Size:</span> Xll</div>
+            </div>
+         </div>
+         <div class="orderProductPrice">&dollar;150</div>
+         <div class="orderProductQty"><input type="text" value="2"></div>
+         <div class="orderProductShip">FREE</div>
+         <div class="orderProductTotal">&dollar;150</div>
+         <div class="orderProductAction"><i class="fas fa-times-circle"></i></div>
+      </div>
+      <div class="orderProduct">
+         <div class="orderProductBox">
+            <div class="orderProductBoxImg"><img src="img/Product2.jpg" alt="product"></div>
+            <div class="orderProductBoxInfo">
+               <div class="orderProductBoxInfoName">Mango People T-shirt</div>
+               <div class="orderProductBoxInfoColor"><span class="infoColor">Color:</span> Red
+               </div>
+               <div class="orderProductBoxInfoSize"><span class="infoSize">Size:</span> Xll</div>
+            </div>
+         </div>
+         <div class="orderProductPrice">&dollar;150</div>
+         <div class="orderProductQty"><input type="text" value="2"></div>
+         <div class="orderProductShip">FREE</div>
+         <div class="orderProductTotal">&dollar;150</div>
+         <div class="orderProductAction"><i class="fas fa-times-circle"></i></div>
+      </div>
+      <div class="orderProduct">
+         <div class="orderProductBox">
+            <div class="orderProductBoxImg"><img src="img/Product3.jpg" alt="product"></div>
+            <div class="orderProductBoxInfo">
+               <div class="orderProductBoxInfoName">Mango People T-shirt</div>
+               <div class="orderProductBoxInfoColor"><span class="infoColor">Color:</span> Red
+               </div>
+               <div class="orderProductBoxInfoSize"><span class="infoSize">Size:</span> Xll</div>
+            </div>
+         </div>
+         <div class="orderProductPrice">&dollar;150</div>
+         <div class="orderProductQty"><input type="text" value="2"></div>
+         <div class="orderProductShip">FREE</div>
+         <div class="orderProductTotal">&dollar;150</div>
+         <div class="orderProductAction"><i class="fas fa-times-circle"></i></div>
+      </div>
+   </div>
+   <div class="buttonShoping container">
+      <button class="shopingClear">CLEAR SHOPPING CART</button>
+      <button class="shopingContinue">CONTINUE SHOPPING</button>
+   </div>
+   <div class="shipping container">
+      <div class="shipingAdress">
+         <form>
+            <h2>Shipping adress</h2>
+            <select name="required" id="required">
+               <option>Russia</option>
+               <option>Bangladesh</option>
+               <option>Australia</option>
+            </select>
+            <input required type="text" placeholder="State">
+            <input required type="number" placeholder="Postcode / Zip">
+            <button>Get a quote</button>
+         </form>
+      </div>
+
+
+      <div class="cuponDiscount">
+         <h2>coupon discount</h2>
+         <h3>Enter your coupon code if you have one</h3>
+         <form>
+            <input type="text" placeholder="State">
+            <button>Apply coupon</button>
+         </form>
+      </div>
+      <div class="grandTotal">
+         <div class="grandTotalSub">
+            <span>Sub total</span>
+            <span>$900</span>
+         </div>
+         <div class="grandTotalGrand">
+            <span>Grand total</span>
+            <span>$900</span>
+         </div>
+         <button>Proceed to checkout</button>
+      </div>
+   </div>
+   <div class="subscribe">
+      <div class="container">
+         <div class="subscribeLeft">
+            <div class="subscribeLeftWrap">
+               <div class="subscribeLeftWrapimg">
+                  <img src="img/ava.png" alt="ava">
+               </div>
+               <div class="subscribeLeftText">
+                  <div class="subscribeLeftTextTop">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                     a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                  <div class="subscribeLeftTextBottom"><span>Bin Burhan</span><br>
+                     Dhaka, Bd</div>
+                  <div class="subscribeSwitch">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="subscribeRight">
+            <div class="subscribeRightTextTop">SUBSCRIBE</div>
+            <div class="subscribeRightTextBottom">FOR OUR NEWLETTER AND PROMOTION</div>
+            <div class="subscribeRightInput">
+               <form class="subscribeEmail">
+                  <input type="text" class="subscribeInput" placeholder="Enter Your Email">
+                  <button class="subscribeButton">Subscribe</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="bottom">
+      <div class="container">
+         <div class="bottomInfo">
+            <div class="bottomInfoLogo">
+               <a href="index.html" class="logo">BRAN<span>D</span></a>
+            </div>
+            <div class="bottomInfoText">Objectively transition extensive
+               data rather than cross functional solutions.
+               Monotonectally syndicate multidisciplinary
+               materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and
+               cross-unit
+               partnerships.
+               <br> <br>
+               Efficiently plagiarize 24/365 action items and focused infomediaries.
+               Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+            </div>
+         </div>
+         <nav class="bottomCompany">
+            <div class="head">COMPANY</div>
+            <div class="bottomMenu">
+               <a href="index.html">Home</a>
+               <a href="#">Shop</a>
+               <a href="#">About</a>
+               <a href="#">How It Works</a>
+               <a href="#">Contact</a>
+            </div>
+         </nav>
+         <nav class="bottomInformation">
+            <div class="head">INFORMATION</div>
+            <div class="bottomMenu">
+               <a href="#">Tearms & Condition</a>
+               <a href="#">Privacy Policy</a>
+               <a href="#">How to Buy</a>
+               <a href="#">How to Sell</a>
+               <a href="#">Promotion</a>
+            </div>
+         </nav>
+         <nav class="bottomShop">
+            <div class="head">SHOP CATEGORY</div>
+            <div class="bottomMenu">
+               <a href="man.html">Men</a>
+               <a href="women.html">Women</a>
+               <a href="#">Child</a>
+               <a href="#">Apparel</a>
+               <a href="#">Brows All</a>
+            </div>
+         </nav>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="container">
+         <div class="footerCopyright">&copy; 2017 Brand All Rights Reserved.</div>
+         <div class="footerIcon">
+            <div class="footerIconImg"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+            <div class="footerIconImg"><a href="#"><i class="fab fa-twitter"></i></a></div>
+            <div class="footerIconImg"><a href="#"><i class="fab fa-instagram"></i></a></div>
+            <div class="footerIconImg"><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
+            <div class="footerIconImg"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
